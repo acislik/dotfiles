@@ -1,0 +1,6 @@
+# some more ls aliases
+#alias l='ls -CF'
+alias l='ls -lFa'
+
+# sorting characters (dotfiles first)
+export LC_COLLATE="C"
